@@ -1,0 +1,61 @@
+10
+
+dir
+112
+svn+ssh://deltager@172.25.24.135/home/deltager/svnrepoes/gruppeE/res
+svn+ssh://deltager@172.25.24.135/home/deltager/svnrepoes/gruppeE
+
+
+
+2012-07-13T10:10:56.203541Z
+112
+deltager
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+773af6e4-1689-45de-823e-f05737902c8d
+
+drawable-hdpi
+dir
+
+drawable-ldpi
+dir
+
+drawable-mdpi
+dir
+
+drawable-xhdpi
+dir
+
+layout
+dir
+
+menu
+dir
+
+raw
+dir
+
+values
+dir
+
+values-large
+dir
+
+values-v11
+dir
+
+values-v14
+dir
+

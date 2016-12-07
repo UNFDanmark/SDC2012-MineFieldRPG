@@ -1,0 +1,153 @@
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bghowto">
+    
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="360dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="35dp" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="400dp"
+                    android:layout_marginBottom="0dp"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="45dp"
+                        android:layout_marginRight="45dp"
+                        android:text="The goal of the game:"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="45dp"
+                        android:layout_marginRight="45dp"
+                        android:layout_weight="0.43"
+                        android:text="You have to get through the minefield. You are the little man in the bottum center of the screen. To get through the minefield you must try to find a safe path. There will be ONE path but there may appear sidetracks with a dead end. If you choose a path where you step on a mine you will die. Furthermore, you will be transported back to your starting position. If you get to the other side you win the round. You have to win the game in the least amount of time and with fewest deaths possible to get the highest score."
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="45dp"
+                        android:layout_marginRight="45dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Controls:"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="45dp"
+                        android:layout_marginRight="45dp"
+                        android:text="You control with swipe. That means that you move your finger on the screen in the desired direction. You dont need to -push- the man. You simply move your finger in a direction anywhere on the screen and he will move one square in that direction. You can only move to the left, up and to the right."
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="45dp"
+                        android:layout_marginRight="45dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Difficulties:"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="45dp"
+                        android:layout_marginRight="45dp"
+                        android:text="You can choose between two difficulties in the -Options- menu. Easy difficulty will automatically be activated if you dont set a difficulty before entering the game."
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="45dp"
+                        android:layout_marginRight="45dp"
+                        android:layout_marginTop="10dp"
+                        android:text="In Easy mode a skull will appear in the square if you step on a mine."
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="45dp"
+                        android:layout_marginRight="45dp"
+                        android:layout_marginTop="10dp"
+                        android:text="In Normal mode there will be no hints available."
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                    
+                  <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="45dp"
+                        android:layout_marginRight="45dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Size:"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="45dp"
+                        android:layout_marginRight="45dp"
+                        android:text="The size of the map can be changed in the options menu. You get more point for completing a bigger map."
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                    
+                </LinearLayout>
+
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp" >
+
+        <Button
+            android:id="@+id/menuHowtoButton"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Menu" />
+
+        <Button
+            android:id="@+id/playHowtoButton"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Play now" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

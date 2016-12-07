@@ -1,0 +1,56 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dk.unf.sdc.gruppee"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="MineFields"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/title_activity_menu"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GameActivity"
+            android:label="@string/title_activity_game"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".HowtoActivity"
+            android:label="@string/title_activity_howto"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".WinActivity"
+            android:label="@string/title_activity_win"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".OptionsActivity"
+            android:label="@string/title_activity_options"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <service android:name=".MainService" >
+        </service>
+
+        <activity
+            android:name=".HighscoreActivity"
+            android:label="@string/title_activity_highscore" 
+                        android:screenOrientation="portrait" >
+            
+        </activity>
+    </application>
+
+</manifest>
